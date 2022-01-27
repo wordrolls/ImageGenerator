@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="16096"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="19529"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -12,11 +12,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="WordRolls" id="1Xt-HY-uBw">
+                            <menuItem title="ImageGenerator" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="WordRolls" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="ImageGenerator" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About WordRolls" id="5kV-Vb-QxS">
+                                        <menuItem title="About ImageGenerator" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -30,7 +30,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide WordRolls" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide ImageGenerator" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -48,7 +48,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit WordRolls" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit ImageGenerator" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -661,7 +661,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="WordRolls Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="ImageGenerator Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -675,7 +675,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="WordRolls" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="ImageGenerator" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -700,12 +700,12 @@
                 </windowController>
                 <customObject id="Oky-zY-oP4" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="250"/>
+            <point key="canvasLocation" x="75" y="315"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="mGy-G8-e5M">
             <objects>
-                <viewController id="k7X-xC-q8X" customClass="ViewController" customModule="WordRolls" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="k7X-xC-q8X" customClass="ViewController" customModule="ImageGenerator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="3ms-b3-5Xe">
                         <rect key="frame" x="0.0" y="0.0" width="544" height="306"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -861,7 +861,7 @@ Cg
                                             <constraint firstAttribute="width" secondItem="jnS-Y1-DD0" secondAttribute="height" multiplier="1:1" id="3st-R4-wpq"/>
                                             <constraint firstAttribute="width" constant="14.5" id="juL-eh-T61"/>
                                         </constraints>
-                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSTouchBarCommunicationVideoTemplate" id="wLJ-Av-Hss"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSEveryone" id="wLJ-Av-Hss"/>
                                     </imageView>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KkX-sf-gEf">
                                         <rect key="frame" x="16" y="187" width="204" height="30"/>
@@ -921,7 +921,7 @@ her with its olfactory sense</string>
                                 </constraints>
                             </customView>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="f7K-QN-agH">
-                                <rect key="frame" x="446" y="6" width="80" height="32"/>
+                                <rect key="frame" x="453" y="6" width="74" height="33"/>
                                 <buttonCell key="cell" type="push" title="Export" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Oi7-P0-BTS">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -931,7 +931,7 @@ her with its olfactory sense</string>
                                 </connections>
                             </button>
                             <segmentedControl verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Yvg-iC-mxq">
-                                <rect key="frame" x="286" y="11" width="104" height="24"/>
+                                <rect key="frame" x="292" y="12" width="106" height="23"/>
                                 <segmentedCell key="cell" borderStyle="border" alignment="left" segmentDistribution="fillEqually" style="rounded" trackingMode="selectOne" id="qZE-SG-25b">
                                     <font key="font" metaFont="system"/>
                                     <segments>
@@ -944,7 +944,7 @@ her with its olfactory sense</string>
                                 </connections>
                             </segmentedControl>
                             <colorWell translatesAutoresizingMaskIntoConstraints="NO" id="xCK-Zv-o5Q">
-                                <rect key="frame" x="396" y="13" width="48" height="21"/>
+                                <rect key="frame" x="404" y="13" width="48" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="48" id="LX5-pD-IOd"/>
                                 </constraints>
@@ -988,10 +988,10 @@ her with its olfactory sense</string>
                 </viewController>
                 <customObject id="CAM-Mr-gtN" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="75" y="829"/>
+            <point key="canvasLocation" x="75" y="810"/>
         </scene>
     </scenes>
     <resources>
-        <image name="NSTouchBarCommunicationVideoTemplate" width="22" height="30"/>
+        <image name="NSEveryone" width="32" height="32"/>
     </resources>
 </document>

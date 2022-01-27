@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WordRolls.xcodeproj">
+      location = "self:/Users/sudeep/Desktop/Projects/ImageGenerator/ImageGenerator.xcodeproj">
    </FileRef>
 </Workspace>
